@@ -29,7 +29,7 @@ const Handlenav=()=>{
 
   return (
     <div>
-      
+        <Sidebar/>
        <div className=' w-[488px] h-[235px] bg-white xl:w-[1345px] xl:h-[220px]'>
 
 
@@ -64,9 +64,11 @@ const Handlenav=()=>{
 
                </div>
 
-               <div className=' w-auto h-[800px] '>
+               <div className=' bg-[#FCFBFC]  w-auto h-[800px] '>
         
-    
+               <Grid1/>
+        <Grid2/>
+         <Grid3/>
   </div>
        </div>
     </div>

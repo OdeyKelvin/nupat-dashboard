@@ -11,11 +11,9 @@ function App() {
   return (
   
       <div className=''>
-        <Sidebar/>
+        
         <Header/>
-        <Grid1/>
-        <Grid2/>
-         <Grid3/>
+        
       </div>
       
    
