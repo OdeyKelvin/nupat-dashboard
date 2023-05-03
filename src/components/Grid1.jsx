@@ -12,15 +12,15 @@ import image8mini from '../assets/image8mini.svg'
 export default function Grid1() {
   return (
     <div>
-    <div className=' container bg-[#FCFBFC] grid grid-cols-1 w-[400px] pl-5 pt-9 h-[1900px] xl:h-[700px] xl:w-[2100px] '>
+    <div className=' container bg-[#FCFBFC] grid grid-cols-1 w-[482px] pl-5 pt-9 h-[1900px] xl:h-[700px] xl:w-[2100px] '>
     <div className='grid1 relative mb-4'> 
-                   <input type='text' placeholder='TO DO' className=' rounded-md py-3 ml-[4px] -mt-2 px-9 w-[310px] bg-[#F4F6F8] text-[#858A93] xl:py-3 xl:ml-[260px] xl:-mt-1 xl:px-9 xl:w-[265px]'></input>
-                   <span className=' grid place-content-center absolute rounded-[10px] shadow-lg-white text-white left-[276px] -translate-x-1/2 top-[0%] w-9 h-9 bg-slate-950 xl:left-[490px] xl:top-[0%] '>3</span>
+                   <input type='text' placeholder='TO DO' className=' relative rounded-md py-3 ml-[4px] -top-20 px-9 w-[430px] bg-[#F4F6F8] text-[#858A93] xl:py-3 xl:ml-[260px] xl:-mt-1 xl:px-9 xl:w-[265px]'></input>
+                   <span className=' grid place-content-center absolute rounded-[10px] shadow-lg-white text-white left-[76px] -translate-x-1/2 top-[-30%] w-9 h-9 bg-slate-950 xl:left-[490px] xl:top-[0%] '>3</span>
                  </div>
             
 
         
-                 <div className=' absolute bg-white  rounded-xl p-4 w-[310px] left-[30px] h-[350px] top-[330px] xl:w-[270px] xl:left-[290px] xl:top-[300px] '> 
+                 <div className=' absolute bg-white  rounded-xl p-4 w-[450px] left-[30px] h-[350px] top-[330px] xl:w-[270px] xl:left-[290px] xl:top-[300px] '> 
                    <div className=' xl:hidden'> <img src={bigimage1} className=' relative' alt='cardimage'/> </div>
                     <div className=' hidden md:block'><img src={image1} className=' relative' alt='cardimage'/> </div>
 
