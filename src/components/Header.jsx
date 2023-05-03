@@ -30,7 +30,7 @@ const Handlenav=()=>{
   return (
     <div>
         <Sidebar/>
-       <div className=' flex flex-col bg-white xl:w-[1345px] xl:h-[220px]'>
+       <div className=' flex flex-col bg-black xl:w-[1345px] xl:h-[220px]'>
 
 
 
@@ -48,7 +48,7 @@ const Handlenav=()=>{
 
 
 
-               <div className=' absolute flex left-[330px] top-[190px] space-x-4 text-[#B8B9BD] font-medium text-[14px] xl:left-[740px] xl:top-[170px] xl:space-x-4'>
+               <div className=' absolute flex left-[200px] top-[190px] space-x-4 text-[#B8B9BD] font-medium text-[14px] xl:left-[740px] xl:top-[170px] xl:space-x-4'>
                  <img src={participantview} className=' relative left-2 ' alt=''/>
                  <a className=' hidden xl:block'>Participants View</a>
                 <img src={bordview} className=' relative left-2' alt=''/>
