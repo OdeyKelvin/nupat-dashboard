@@ -18,7 +18,7 @@ export default function Grid2() {
                     <span className=' grid place-content-center absolute rounded-[10px] shadow-lg-white text-white left-[310px] -translate-x-1/2 -top-[1100px] w-9 h-9 bg-slate-950 xl:top-[-675px] xl:left-[880px] '>1</span>
                      </div>
 
-                  <div className=' absolute bg-white  rounded-xl p-4 w-[440px] top-[1100px] left-[40px] h-[350px] xl:top-[300px] xl:left-[640px] xl:w-[270px]'> 
+                  <div className=' absolute bg-white  rounded-xl p-4 top-[1100px] left-[40px] h-[350px] xl:top-[300px] xl:left-[640px] xl:w-[270px]'> 
                   
                    <div className=' xl:hidden'>  <img src={bigimage2} className=' relative' alt='cardimage'/> </div>
                    <div className=' hidden md:block '>  <img src={image2} className=' relative' alt='cardimage'/> </div>

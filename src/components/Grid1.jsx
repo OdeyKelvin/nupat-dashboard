@@ -20,10 +20,10 @@ export default function Grid1() {
             
 
         
-                 <div className=' absolute bg-white  rounded-xl p-4 w-[450px] left-[30px] h-[350px] top-[330px] xl:w-[270px] xl:left-[290px] xl:top-[300px] '> 
-                   <div className=' xl:hidden'> <img src={bigimage1} className=' relative' alt='cardimage'/> </div>
+                 <div className=' absolute bg-white  rounded-xl p-4  left-[30px] h-[350px] top-[330px] xl:w-[270px] xl:left-[290px] xl:top-[300px] '> 
+                   <div className=' xl:hidden w-full '> <img  src={bigimage1} className=' w-98 relative' alt='cardimage'/> </div>
                     <div className=' hidden md:block'><img src={image1} className=' relative' alt='cardimage'/> </div>
-
+                    
                         <div className=' flex justify-between items-center mt-2 mb-2'>
                          <h6 className=' font-semibold text-[16px] text-[#000000]'>Highfidelity Design</h6>
                          <img src={threedot} className=' relative' alt='cardimage'/>
