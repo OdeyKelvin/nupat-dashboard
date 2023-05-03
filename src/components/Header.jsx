@@ -30,14 +30,14 @@ const Handlenav=()=>{
   return (
     <div>
         <Sidebar/>
-       <div className=' flex flex-col bg-white xl:w-[1345px] xl:h-[220px]'>
+       <div className=' flex flex-col  xl:w-[1345px] xl:h-[220px]'>
 
-
+              <div  className=' relative ml-[400px] top-32 md:hidden  '><AiOutlineMenu size={23}/></div>
 
        <div className=' relative  text-black h-[46px] left-[30px] text-[36px] font-semibold w-[400px] top-[20px] xl:h-[46px] xl:left-[300px] xl:w-[823px] xl:[30px]'>New Campaign Run</div>
        <div className=' relative top-[25px] xl:top-[25px] text-[#B8B9BD]  font-normal text-[14px] ml-[30px] xl:ml-[300px]  '>A new campaign launch work for brand new feature in May month</div>
               
-            <div className=' absolute  bg-black text-white h-[42px] pt-2 pl-3 rounded-[8px]  w-[140px] left-[30px] top-[110px] font-normal xl:h-[42px] xl:pt-2 xl:pl-3 xl:rounded-[8px] xl:w-[140px] xl:left-[1100px] xl:top-[35px]  '>ADD MEMBERS</div>       
+            <div className=' absolute  bg-black text-white h-[42px] pt-2 pl-3 rounded-[8px]  w-[140px] left-[30px] top-[120px] font-normal xl:h-[42px] xl:pt-2 xl:pl-3 xl:rounded-[8px] xl:w-[140px] xl:left-[1100px] xl:top-[35px]  '>ADD MEMBERS</div>       
             <div className='members xl:mb-6 '>
                
                <div>  <img src={image8} className=' relative top-[85px] left-[30px] rounded-[15px] xl:top-[100px] xl:left-[300px] xl:rounded[15px]' alt=''/>  </div>
