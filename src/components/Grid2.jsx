@@ -14,8 +14,8 @@ export default function Grid2() {
     <div className=''>
           <div>
               <div className='grid2 relative mb-4'> 
-                <input type='text' placeholder='Inprogress' className=' relative rounded-md py-3 ml-[40px] top-[-1120px] px-9 w-[400px] bg-[#F4F6F8] text-[#858A93] xl:top-[-680px] xl:left-[610px] xl:w-[256px]'></input>
-                    <span className=' grid place-content-center absolute rounded-[10px] shadow-lg-white text-white left-[410px] -translate-x-1/2 -top-[1114px] w-9 h-9 bg-slate-950 xl:top-[-675px] xl:left-[880px] '>1</span>
+                <input type='text' placeholder='Inprogress' className=' relative rounded-md py-3 ml-[40px] top-[-1100px] px-9 w-[400px] bg-[#F4F6F8] text-[#858A93] xl:top-[-680px] xl:left-[610px] xl:w-[256px]'></input>
+                    <span className=' grid place-content-center absolute rounded-[10px] shadow-lg-white text-white left-[410px] -translate-x-1/2 -top-[1100px] w-9 h-9 bg-slate-950 xl:top-[-675px] xl:left-[880px] '>1</span>
                      </div>
 
                   <div className=' absolute bg-white  rounded-xl p-4 w-[400px] top-[1100px] left-[40px] h-[350px] xl:top-[300px] xl:left-[640px] xl:w-[270px]'> 
