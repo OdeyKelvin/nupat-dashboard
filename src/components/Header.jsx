@@ -30,7 +30,7 @@ const Handlenav=()=>{
   return (
     <div>
         <Sidebar/>
-       <div className=' w-[400px] h-[235px] ml-6 bg-white xl:w-[1345px] xl:h-[220px]'>
+       <div className=' flex flex-col bg-white xl:w-[1345px] xl:h-[220px]'>
 
 
 
