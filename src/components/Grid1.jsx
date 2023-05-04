@@ -11,97 +11,94 @@ import image8mini from '../assets/image8mini.svg'
 
 export default function Grid1() {
   return (
-    <div>
-    <div className=' container bg-[#FCFBFC] grid grid-cols-1 w-[482px] pl-5 pt-9 h-[1900px] xl:h-[700px] xl:w-[2100px] '>
-    <div className='grid1 relative mb-4'> 
-                   <input type='text' placeholder='TO DO' className=' relative rounded-md py-3 ml-[4px] -top-20 px-9 w-[330px] bg-[#F4F6F8] text-[#858A93] xl:py-3 xl:ml-[260px] xl:-mt-1 xl:px-9 xl:w-[265px]'></input>
-                   <span className=' grid place-content-center absolute rounded-[10px] shadow-lg-white text-white left-[76px] -translate-x-1/2 top-[-30%] w-9 h-9 bg-slate-950 xl:left-[490px] xl:top-[0%] '>3</span>
-                 </div>
-            
+    <div className='mx-auto w-11/12 space-y-8'>
+      <div
+        className='flex justify-between bg-gray-100 rounded-lg md:self-start px-5 whitespace-nowrap self-center'>
+        <label className='text-gray-400 self-center text-xl'>To Do</label>
+        <button className='border-2 bg-black rounded-lg w-12  h-12 my-2 font-semibold text-xl whitespace-nowrap self-center text-white'>3</button>
+      </div>
+      <div className='w-full bg-white rounded-xl py-5'>
+        <div className='w-10/12 mx-auto space-y-3'>
+          <img src={image1} className='w-full' />
+          <div>
 
-        
-                 <div className=' absolute bg-white  rounded-xl p-4  left-[30px] h-[350px] top-[330px] xl:w-[270px] xl:left-[290px] xl:top-[300px] '> 
-                   <div className=' xl:hidden w-full '> <img  src={bigimage1} className=' w-98 relative' alt='cardimage'/> </div>
-                    <div className=' hidden md:block'><img src={image1} className=' relative' alt='cardimage'/> </div>
-                    
-                        <div className=' flex justify-between items-center mt-2 mb-2'>
-                         <h6 className=' font-semibold text-[16px] text-[#000000]'>Highfidelity Design</h6>
-                         <img src={threedot} className=' relative' alt='cardimage'/>
-                        </div>
-                     <div className=' text-gray '>
-                      <p className=' text-sm text-[#B8B9BD] font-normal '> Make clear design and color</p>
-                      <p className=' flex relative gap-2 text-[#B8B9BD] font-normal text-sm mt-3'>
-                      <img src={threemark} className=' relative' alt='cardimage'/>
-                      Progress
-                      <span className=' text-md font-semibold ml-auto text-black '> 2
-                        /10
-                      </span>
-                      </p>
-                        <div>
-                        <img src={ Slider} className=' relative top-2' alt='cardimage'/>
-                         <div className='flex text-[#B8B9BD] gap-3 -mt-2'>
-                          <p className='flex gap-1 font-light text-sm
-                           mt-1'> 
-                       <img src={ Teardropdot} className=' relative top-4' alt='cardimage'/>
-                       <div className=' mt-8 ml-1'>7</div>             
-                           </p>
-                          <p className='flex gap-1 font-light text-sm mt-1'> 
-                          <img src={linksimplehori} className=' relative top-4' alt='cardimage'/> 
-                          <div className=' mt-8 ml-1  '>2</div>
-                           </p>
-                          <div> <img src={image8mini} className=' relative rounded-[16px] mt-8 left-[90px]' alt='cardimage'/></div>
-                          <div> <img src={image8mini} className=' relative rounded-[16px] mt-8 left-[75px]' alt='cardimage'/></div>
-                          <div> <img src={image8mini} className=' relative rounded-[16px] mt-8 left-[60px]' alt='cardimage'/></div>
+            <div className='text-[#B8B9BD] flex justify-between'>
+              <div>
+                <h5 className='text-black font-semibold '>Highfidelity Design</h5>
+                <p >Make clear design and color</p>
+              </div>
+              <img src={threedot} className='self-start' />
+            </div>
+            <div className='text-[#B8B9BD] flex justify-between'>
+              <div className='flex gap-3 '>
+                <img src={threemark} />
+                <p className='self-center'>Progress</p>
+              </div>
+              <h5 className='text-black font-semibold self-center my-2'>2/10</h5>
+            </div>
+            <div className="w-full bg-gray-200 rounded-full h-2.5 mb-4 dark:bg-gray-700">
+              <div className="bg-blue-600 h-2.5 rounded-full dark:bg-blue-500 w-1/5"></div>
+            </div>
 
+            <div className='flex justify-between'>
+              <div className='flex gap-2'>
+                <div className='flex'>
+                  <img src={Teardropdot} className='self-center' alt='cardimage' />
+                  <div className='self-center p-1'>7</div>
+                </div>
+                <div className='flex gap-1 font-light self-center'>
+                  <img src={linksimplehori} className='' alt='cardimage' />
+                  <div className='self-center'>2</div>
+                </div>
+              </div>
+              <div className='flex -space-x-4'>
+                <img src={image8mini} className='rounded-full h-8 w-8' alt='cardimage' />
+                <img src={image8mini} className='rounded-full h-8 w-8' alt='cardimage' />
+                <img src={image8mini} className='rounded-full h-8 w-8' alt='cardimage' />
+              </div>
+            </div>
 
-                          <div className=' absolute bg-white  rounded-xl p-4 w-[310px] left-[8px] h-[200px] -bottom-[240px] xl:w-[270px] xl:left-[1px] xl:top-[370px]'>
-                  
+            <div className='text-[#B8B9BD]  flex justify-between'>
+              <div>
+                <h5 className='text-black font-semibold '>Usability Testing</h5>
+                <p >Make clear design and color</p>
+              </div>
+              <img src={threedot} className='self-start' />
+            </div>
+            <div className='text-[#B8B9BD] flex justify-between'>
+              <div className='flex gap-3 '>
+                <img src={threemark} />
+                <p className='self-center'>Progress</p>
+              </div>
+              <h5 className='text-black font-semibold self-center my-2'>2/10</h5>
+            </div>
+            <div className="w-full bg-gray-200 rounded-full h-2.5 mb-4 dark:bg-gray-700">
+              <div className="bg-blue-600 h-2.5 rounded-full dark:bg-blue-500 w-1/5"></div>
+            </div>
 
-                  <div className=' flex justify-between items-center mt-2 mb-2'>
-                         <h6 className=' font-semibold text-[16px] text-[#000000]'>Usability testing</h6>
-                         <img src={threedot} className=' relative' alt='cardimage'/>
-                        </div>
-                     <div className=' text-gray '>
-                      <p className=' text-sm text-[#B8B9BD] font-normal '> Make clear design and color</p>
-                      <p className=' flex relative gap-2 text-[#B8B9BD] font-normal text-sm mt-4'>
-                      <img src={threemark} className=' relative' alt='cardimage'/>
-                      Progress
-                      <span className=' text-md font-semibold ml-auto text-black '> 2
-                        /10
-                      </span>
-                      </p>
-                        <div>
-                        <img src={ Slider} className=' relative top-5' alt='cardimage'/>
-                         <div className='flex text-[#B8B9BD] gap-3 mt-2'>
-                          <p className='flex gap-1 font-light text-sm
-                           mt-1'> 
-                       <img src={ Teardropdot} className=' relative top-4' alt='cardimage'/>
-                       <div className=' mt-8 ml-1'>7</div>             
-                           </p>
-                          <p className='flex gap-1 font-light text-sm mt-1'> 
-                          <img src={linksimplehori} className=' relative top-4' alt='cardimage'/> 
-                          <div className=' mt-8 ml-1  '>2</div>
-                           </p>
-                          <div> <img src={image8mini} className=' relative rounded-[16px] mt-8 left-[90px]' alt='cardimage'/></div>
-                          <div> <img src={image8mini} className=' relative rounded-[16px] mt-8 left-[75px]' alt='cardimage'/></div>
-                          <div> <img src={image8mini} className=' relative rounded-[16px] mt-8 left-[60px]' alt='cardimage'/></div>
-                         </div>
-                        </div>
-                     </div>
-                     <button className=' absolute bg-[#F2F4F5] -bottom-[80px] flex justify-center gap-3 w-full text-center border-dashed border-[1px] rounded-lg font-medium text-[20px] right-1 py-6 px-13 text-sm text-[#7D8088]'>
-                     <img src={plus2} className=' relative text-[#7D8088]' alt='cardimage'/>
-                      Add Task</button>
-
-                 </div>
-
-
-
-
-                         </div>
-                        </div>
-                     </div>
-                  </div>
-         </div>
-    </div>
+            <div className='flex justify-between'>
+              <div className='flex gap-2'>
+                <div className='flex'>
+                  <img src={Teardropdot} className='self-center' alt='cardimage' />
+                  <div className='self-center p-1'>7</div>
+                </div>
+                <div className='flex gap-1 font-light self-center'>
+                  <img src={linksimplehori} className='' alt='cardimage' />
+                  <div className='self-center'>2</div>
+                </div>
+              </div>
+              <div className='flex -space-x-4'>
+                <img src={image8mini} className='rounded-full h-8 w-8' alt='cardimage' />
+                <img src={image8mini} className='rounded-full h-8 w-8' alt='cardimage' />
+                <img src={image8mini} className='rounded-full h-8 w-8' alt='cardimage' />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button className=' bg-[#F2F4F5] flex justify-center gap-3 w-full text-center border-dashed rounded-lg font-medium text-[20px] right-1 py-4 border-2 px-13 text-sm text-[#7D8088]'>
+        <img src={plus2} className=' relative text-[#7D8088]' alt='cardimage' />
+        Add Task</button>
+    </div >
   )
 }
