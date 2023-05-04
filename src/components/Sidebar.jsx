@@ -5,11 +5,10 @@ import sethings from '../assets/sethings.svg'
 import users from '../assets/users.svg'
 import addeduser from '../assets/addeduser.svg'
 import affiliate from '../assets/affiliate.svg'
-import line3 from '../assets/Line3.svg'
 import plus from '../assets/plus.svg'
 function Sidebar() {
     return (
-        <div className=' bg-[#1D1042] z-20 fixed p-5 text-white w-fit h-screen'>
+        <div className=' bg-[#1D1042] z-20 p-5 text-white w-full top-0 sticky h-screen'>
             <div className="flex gap-5 bg-[#45269C] px-8 py-3 my-5 rounded-lg">
                 <img src={Vector} className='' alt='' />
                 <h1 className=''>
@@ -69,7 +68,7 @@ function Sidebar() {
                 </li>
             </ul>
 
-            <button className='bg-[#703EFE] my-8 px-8 py-3 flex gap-4 rounded-xl font-semibold'>
+            <button className='bg-[#703EFE]  my-8 px-8 py-3 flex gap-4 rounded-xl font-semibold'>
                 <img src={plus} className='self-center' />
                 <h1>NEW PROJECT</h1>
             </button>

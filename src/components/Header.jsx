@@ -6,12 +6,17 @@ import participantview from '../assets/participantview.svg'
 import powerview from '../assets/powerview.svg'
 
 import plus from '../assets/plus2.svg'
-import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai'
-export default function Header() {
+import { AiOutlineMenu } from 'react-icons/ai'
+export default function Header(props) {
 
+  const Handlenav = () => {
+    props.sidemenuHandler()
+  }
   return (
-    <div className='md:px-14 px-6 space-y-10 py-12 z-10 sticky top-0 backdrop-blur-md'>
+    <div className='md:px-14 px-6 space-y-10 py-5 md:py-12 z-10 sticky top-0 backdrop-blur-md'>
       <div className='md:flex justify-between h-fit'>
+
+        <div className=' absolute md:hidden right-20 top-32'><AiOutlineMenu size={23} onClick={Handlenav} /></div>
         <div>
           <h1 className='text-4xl font-semibold'>New Campaign Run</h1>
           <p className='my-2 text-[#B8B9BD]'>A new campaign launch work for brand new feature in May month.</p>
